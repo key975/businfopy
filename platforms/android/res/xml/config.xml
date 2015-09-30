@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="fs.ejemplobd.bd" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="SQLitePlugin">
+        <param name="android-package" value="org.pgsqlite.SQLitePlugin" />
+    </feature>
+    <name>BUS INFO PY</name>
+    <description>
+       Itinerarios de las empresas de transporte del Paraguay
+    </description>
+    <author email="ejemplo@tudominio.com" href="http://tudominio.com">
+        Keila Nurimar Galarza Zinke
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
